@@ -1,0 +1,10 @@
+{
+  "lazy.nvim": { "branch": "main", "commit": "db067881fff0fd4be8c00e5bde7492e0e1c77a2f" },
+  "mini.nvim": { "branch": "main", "commit": "e96ef335c7c68d2bc6359cdb7cf0941889df9be0" },
+  "monokai-pro.nvim": { "branch": "master", "commit": "1ac671f6da720cba967d28d25c2f16b8b4e18808" },
+  "nvim-lspconfig": { "branch": "master", "commit": "a89bfcfd0e44f898341ac8a80ba83ccf6218bef3" },
+  "nvim-tree.lua": { "branch": "master", "commit": "321bc61580fd066b76861c32de3319c3a6d089e7" },
+  "nvim-web-devicons": { "branch": "master", "commit": "8dcb311b0c92d460fac00eac706abd43d94d68af" },
+  "toggleterm.nvim": { "branch": "main", "commit": "50ea089fc548917cc3cc16b46a8211833b9e3c7c" },
+  "vimtex": { "branch": "master", "commit": "be9deac3a23eeb145ccf11dd09080795838496ce" }
+}
