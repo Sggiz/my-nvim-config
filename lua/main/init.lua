@@ -8,3 +8,4 @@ require 'main.lazy-plugins'
 require 'main.lsp'
 require 'main.options'
 require 'main.keymaps'
+

@@ -46,7 +46,6 @@ end, { desc = 'Toggle diagnostic virtual_lines' })
 
 
 
-
 ----------------------------------
 --- Plugin Shortcuts
 ----------------------------------
@@ -57,3 +56,11 @@ end, { desc = 'Toggle diagnostic virtual_lines' })
 -- NvimTree
 vim.keymap.set('n', '<leader>t', ':NvimTreeToggle<CR>',
     { noremap = true })
+
+-- Telescopelocal
+builtin = require('telescope.builtin')
+vim.keymap.set('n', '<leader>ff', builtin.find_files)
+vim.keymap.set('n', '<leader>fg', builtin.live_grep)
+vim.keymap.set('n', '<leader>fb', builtin.buffers)
+vim.keymap.set('n', '<leader>fh', builtin.help_tags)
+
