@@ -10,13 +10,19 @@ plugins et des lsp.
  - nvim-tree
  - toggleterm
  - vimtex
+ - telescope
+ - git-conflict
+ - markdown-preview
 
 ### LSP
 
  - OCaml : ocamllsp
  - LaTeX : texlab
+ - Python : pyright
+ - C/C++ : clangd
 
 
 ### Colorscheme
 
- - monokai-pro (en tant que plugin)
+ - monokai-pro
+ - nox
