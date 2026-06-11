@@ -4,7 +4,6 @@
 require('lazy').setup({
     -- Colorschemes
     require 'main.plugins.monokai-pro',
-    require 'main.plugins.nox',
 
     -- Plugins
     require 'main.plugins.nvim-tree',
@@ -14,8 +13,10 @@ require('lazy').setup({
     require 'main.plugins.git-conflict',
     require 'main.plugins.markdown-preview',
 
+    -- LSP directed plugins
+    require 'main.plugins.mason',
     require 'main.plugins.nvim-lspconfig',
-    require 'main.plugins.vimtex'
+    require 'main.plugins.vimtex',
 
 })
 

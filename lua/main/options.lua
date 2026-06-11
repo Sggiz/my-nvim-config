@@ -29,7 +29,7 @@ vim.o.autoindent = true
 
 -- Completion
 vim.o.wildmode = "list:longest", "list:full" -- for commands
-vim.opt.completeopt = { "menuone", "noselect", "popup" } -- for lsps
+vim.opt.completeopt = { "menuone", "noselect", "noinsert", "popup" } --completion
 
 
 -- Clipboard
