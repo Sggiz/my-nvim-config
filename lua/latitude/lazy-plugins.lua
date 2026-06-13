@@ -3,20 +3,20 @@
 
 require('lazy').setup({
     -- Colorschemes
-    require 'main.plugins.monokai-pro',
+    require 'latitude.plugins.monokai-pro',
 
     -- Plugins
-    require 'main.plugins.nvim-tree',
-    require 'main.plugins.toggleterm',
-    require 'main.plugins.mini',
-    require 'main.plugins.nvim-telescope',
-    require 'main.plugins.git-conflict',
+    require 'latitude.plugins.nvim-tree',
+    require 'latitude.plugins.toggleterm',
+    require 'latitude.plugins.mini',
+    require 'latitude.plugins.nvim-telescope',
+    require 'latitude.plugins.git-conflict',
     -- require 'main.plugins.markdown-preview',
 
     -- LSP directed plugins
-    require 'main.plugins.mason',
-    require 'main.plugins.nvim-lspconfig',
-    require 'main.plugins.vimtex',
+    require 'latitude.plugins.mason',
+    require 'latitude.plugins.nvim-lspconfig',
+    require 'latitude.plugins.vimtex',
 
 })
 

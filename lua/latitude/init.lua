@@ -1,11 +1,11 @@
 vim.g.mapleader = ' '
 -- vim.g.maplocalleader = ' '
 
-vim.g.have_nerd_font = true
+vim.g.have_nerd_font = false
 
-require 'main.lazy-bootstrap'
-require 'main.lazy-plugins'
-require 'main.lsp'
-require 'main.options'
-require 'main.keymaps'
+require 'latitude.lazy-bootstrap'
+require 'latitude.lazy-plugins'
+require 'latitude.lsp'
+require 'latitude.options'
+require 'latitude.keymaps'
 
