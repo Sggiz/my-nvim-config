@@ -1,7 +1,7 @@
 
 -- Window options
 vim.o.nu = true
-vim.o.rnu = false
+vim.o.rnu = true
 vim.o.wrap = true
 vim.o.cursorline = true
 vim.o.cursorlineopt = 'number'

@@ -17,6 +17,5 @@ require('lazy').setup({
     require 'latitude.plugins.mason',
     require 'latitude.plugins.nvim-lspconfig',
     require 'latitude.plugins.vimtex',
-
 })
 
